@@ -58,9 +58,11 @@ nav ul li a:hover:after{
     width: 100%;
 }
 .btn{
-    colour: blue;
+    color: blue;
+    position:relative;
     font-size: 16px;
     text-transform: uppercase;
+    text-justify: auto;
     letter-spacing: 2px;
     padding: 16px 40px;
     border-radius: 500px;
@@ -70,4 +72,22 @@ nav ul li a:hover:after{
     background-size: 152% 100%;
     background: brown;
     border: 2px solid brown;
+}
+.btn:hover{
+    background: transparent;
+    border-color: brown;
+    color: brown;
+}
+.content{
+    position:absolute;
+    top: 35%;
+    left:10%
+}
+.content.title{
+    color:black;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    display: inline-block;
+    margin-bottom: 20px;
 }
