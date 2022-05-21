@@ -87,3 +87,35 @@
     background-color: white;
     cursor: pointer;
 }
+/* Education Section*/
+#education{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0,0,0,0.5);
+}
+#education h1{
+    margin: 60px;
+
+}
+.columns{
+    display: grid;
+    grid-template-columns: auto auto;
+    padding-left: 200px;
+}
+.box{
+    height: 100px;
+    width: 400px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 20px;
+    margin: 10px;
+    padding: 20px;
+}
+.box h2{
+    color:aqua;
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+.box p{
+    color: white;
+    font-size: 1.1rem;
+}
