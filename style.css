@@ -119,3 +119,30 @@
     color: white;
     font-size: 1.1rem;
 }
+/* About Section */
+#about{
+    display: flex;
+    flex-direction: column;
+    height: 600px;
+}
+#about h1{
+    color: black;
+    margin: 55px;
+}
+.about{
+    display: flex;
+}
+.about img{
+    width: 500px;
+    height: 400px;
+    padding: 0px 30px;
+}
+.name{
+    padding: 10px;
+}
+.name h2{
+    font-size: 2rem;
+}
+.name p{
+    font-size: 1.2 rem;
+}
